@@ -13,6 +13,7 @@ This programmatic layout mirrors the mathematical engine foundational to enterpr
 2. **Shaft Deflection Profiler (`shaft_deflection.py`)**: Models safe shaft diameters against combined torque profiles and bending loops under heavy-duty low-gear loading steps.
 3. **Bearing Fatigue Analyzer (`bearing_lifecycle.py`)**: Evaluates basic L10 mechanical lifetimes for high-capacity tapered roller configurations using standard dynamic loading vectors.
 4. **DFMEA Generator Engine (`dfmea_matrix.py`)**: Automatically traces, handles, and builds structured Risk Priority Number (RPN) tables matching standard manufacturing quality criteria.
+5. **Tolerance Stack-up Analyzer (`tolerance_stack.py`)**: Computes structural clearances and assembly variations within tight geometric paths. Features parallel engines executing deterministic **Worst-Case Loops** and statistical **Root-Sum-Square (RSS)** optimization matrices, demonstrating practical mastery of GD&T engineering tracks.
 
 ## Execution & Deployment Guide
 
