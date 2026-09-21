@@ -21,7 +21,7 @@ To run local calculation modules inside your environment, configure and deploy u
 
 ```bash
 # Clone the calculation suite
-git clone https://github.com
+git clone https://github.com/RAH333/transaxle-pro-sim.git
 cd transaxle-pro-sim
 
 # Set up project dependency tracking
@@ -34,6 +34,11 @@ python core_solvers/bearing_lifecycle.py
 
 # Run standard corporate failure risk engine reports
 python analytical_tools/dfmea_matrix.py
+
+# Run the Tolerance Loop Simulator:
+python3 core_solvers/tolerance_stack.py
+# Expected Output: A clean ASCII data grid comparing your Worst-Case and Statistical (RSS) clearance variations for your assembly loops.
+
 ```
 
 
